@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Contact</title>
+    <link rel="stylesheet" href="Cookie.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/39f248111e.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <form >
+
+                <div class="navbar">
+                    <a href="Cookie.html">Home</a>
+                    <a href="CookieAbout.html">About</a>
+                    <a href="CookieProduct.html">Products</a>
+                    <a href="CookieContact.html">Contact</a>
+
+                    <div class="register">
+                        <a href="CookieSignUp.html" class="register">Register</a>
+                        <a href="CookieSignUp.html" class="signUp">Sign Up</a>
+                    </div>
+                </div>
+               
+
+            </form>
+
+        </nav>
+    </header>
+
+    <body class="another">
+        <div style="text-align: center;">
+
+            <h1>Contact us</h1>
+            <br>
+
+            <img src="cookieMainLogo.jpg" alt="cookie-logo" width="400">
+
+            <h3>Contact</h3>
+            <p>Let's get this conversation started. Tell us a bit about yourself, and we'll get in touch as soon as we can.</p>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="brazil">Brazil</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.18926086715!2d-122.08126699999998!3d37.4133351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20CA%2C%20USA!5e0!3m2!1sen!2sca!4v1695955093411!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <footer>
+                <p>&copy; 2023 Cookie. All rights reserved.</p>
+            </footer>
+
+            <form>
+                <br>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+            </form>
+
+        </div>
+    </body>
+
+    
+
+</html>

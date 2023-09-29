@@ -1,0 +1,204 @@
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.startButtons {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* .aboutUs{
+    margin-left: 300px;
+    margin-right: 300px;
+  } */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Searching Cookie */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+li {
+  display: block;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+button a {}
+
+.google-logo {
+  position: absolute;
+  margin: 10em 32.5em;
+  /* text-align: center; */
+}
+
+.feeling-lucky {
+  position: absolute;
+  margin: 20em 32.5em;
+  width: 400px;
+}
+
+#searchbar {
+  position: absolute;
+  top: 260px;
+  left: 475px;
+  width: 580px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+
+#search_button {
+  position: absolute;
+  top: 310px;
+  left: 650px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #444 !important;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px;
+  background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border-radius: 2px;
+}
+
+#lucky_button {
+  position: absolute;
+  top: 310px;
+  left: 780px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #444 !important;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px;
+  background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border-radius: 2px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer-link {
+  margin-left: 10px;
+  color: #000;
+}
+
+.move-left {
+  float: left;
+}
+
+.move-right {
+  float: right;
+}
+
+.about {
+  text-align: center;
+}
+
+.products {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;  
+  flex-direction: row;
+  text-align: center;
+  margin-left: 150px;
+
+}
+
+.flex-container>div {
+
+  width: 20px;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid;
+
+}
+.register{
+  float: right;
+}
